@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicMirror", "MagicMirror\MagicMirror.csproj", "{4131EA01-32A0-4FF3-AF99-12450DCC9363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicMirror.Tests", "MagicMirror.Tests\MagicMirror.Tests.csproj", "{C67235A8-59C2-4AF8-B8CD-53C97E90F441}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4131EA01-32A0-4FF3-AF99-12450DCC9363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4131EA01-32A0-4FF3-AF99-12450DCC9363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4131EA01-32A0-4FF3-AF99-12450DCC9363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4131EA01-32A0-4FF3-AF99-12450DCC9363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C67235A8-59C2-4AF8-B8CD-53C97E90F441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67235A8-59C2-4AF8-B8CD-53C97E90F441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67235A8-59C2-4AF8-B8CD-53C97E90F441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67235A8-59C2-4AF8-B8CD-53C97E90F441}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FEBF9F3-E187-4745-AE6B-7CFF6CAB2F30}
+	EndGlobalSection
+EndGlobal
