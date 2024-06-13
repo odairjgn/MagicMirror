@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MagicMirror.Abstractions
+﻿namespace MagicMirror.Abstractions
 {
     public class ObjectWrapper
     {
@@ -18,5 +12,12 @@ namespace MagicMirror.Abstractions
         }
 
         public PropertyCollection Properties => new PropertyCollection(_object, _type);
+
+        public object Object => _object;
+
+        public override string ToString()
+        {
+            return $"Object: {_type.Name}";
+        }
     }
 }

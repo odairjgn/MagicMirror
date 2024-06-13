@@ -30,5 +30,10 @@ namespace MagicMirror.Abstractions
         public bool CanSet => _property.CanWrite;
 
         public string Name => _property.Name;
+
+        public override string ToString()
+        {
+            return $"{_property.DeclaringType?.Name}.{_property.Name}";
+        }
     }
 }
